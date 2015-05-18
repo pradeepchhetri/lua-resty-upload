@@ -41,7 +41,7 @@ Synopsis
 ========
 
 ```lua
-    lua_package_path "/path/to/lua-resty-redis/lib/?.lua;;";
+    lua_package_path "/path/to/lua-resty-upload/lib/?.lua;;";
 
     server {
         location /test {
@@ -196,4 +196,3 @@ See Also
 * the [lua-resty-mysql](https://github.com/agentzh/lua-resty-mysql) library
 
 [Back to TOC](#table-of-contents)
-
